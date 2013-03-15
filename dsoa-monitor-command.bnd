@@ -1,0 +1,7 @@
+Bundle-Name: Dsoa Monitor Command
+Bundle-Description: A 'monitor' command for the shell service
+Bundle-Activator: br.ufpe.cin.dsoa.command.monitor.Activator
+Bundle-ClassPath: .  
+Import-Package: org.apache.felix.shell, org.osgi.framework
+Export-Package: br.ufpe.cin.dsoa.command.monitor
+DynamicImport-Package: *
